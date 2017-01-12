@@ -17,7 +17,6 @@ namespace PalindromeNumbers
                 if (y.ToString().Reverse().SequenceEqual(y.ToString()))
                 {
                     Console.WriteLine(y);
-                    Console.ReadLine();
                     count++;
                 }
                 y++;
